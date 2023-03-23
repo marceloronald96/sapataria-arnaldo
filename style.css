@@ -1,3 +1,11 @@
 body {
-    color: rgb(17, 0, 255);
-}  
+    background-color: #FFCC66;
+    background-image: url("papel-de-parede-de-moda-masculina-fundo-de-madeira-sapatos-de-couro-com-ferramentas-de-polimento (1).jpg");
+    }  
+.título-pagina {
+    font: size 10pt;
+    color: silver
+}
+background {
+    color: rgb(12, 11, 5);
+}
