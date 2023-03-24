@@ -9,3 +9,17 @@ body {
 background {
     color: rgb(12, 11, 5);
 }
+.barradenavegacao {
+    display: flex;
+    align-items: center;
+}
+.barradenavegacao ul {
+    display: flex;
+}
+.barradenavegacao ul a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 700;
+}
