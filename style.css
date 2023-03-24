@@ -19,7 +19,14 @@ background {
 .barradenavegacao ul a {
     padding-left: 50px;
     text-decoration: none;
-    color: brown;
+    color: rgba(104, 22, 22, 0.445);
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.banner {
+    width: 100px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 0;
 }
