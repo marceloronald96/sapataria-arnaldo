@@ -1,6 +1,10 @@
+header {
+    height: 500px;
+}
+
 body {
     background-color: #FFCC66;
-    background-image: url("papel-de-parede-de-moda-masculina-fundo-de-madeira-sapatos-de-couro-com-ferramentas-de-polimento (1).jpg");
+    background-image: image(".../img/fundo.jpg");
     }  
 .título-pagina {
     font: size 10pt;
