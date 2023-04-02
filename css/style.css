@@ -1,0 +1,36 @@
+header {
+    height: 500px;
+}
+
+body {
+    background-color: #FFCC66;
+    background-image: image(".../img/fundo.jpg");
+    }  
+.título-pagina {
+    font: size 10pt;
+    color: silver
+}
+background {
+    color: rgb(12, 11, 5);
+}
+.barradenavegacao {
+    display: flex;
+    align-items: center;
+}
+.barradenavegacao ul {
+    display: flex;
+}
+.barradenavegacao ul a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: rgba(104, 22, 22, 0.445);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner {
+    width: 100px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 0;
+}

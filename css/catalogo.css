@@ -1,0 +1,37 @@
+
+
+body {
+    background-color: #FFCC66;
+    background-image: url("papel-de-parede-de-moda-masculina-fundo-de-madeira-sapatos-de-couro-com-ferramentas-de-polimento (1).jpg");
+    }  
+header 
+.título-pagina {
+    font: size 10pt;
+    color: silver;
+    height: 500px;
+    background-color: red;
+}
+background {
+    color: (12, 11, 5);
+}
+.barradenavegacao {
+    display: flex;
+    align-items: center;
+}
+.barradenavegacao ul {
+    display: flex;
+}
+.barradenavegacao ul a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: rgba(104, 22, 22, 0.445);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner {
+    width: 100px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 0;
+}
