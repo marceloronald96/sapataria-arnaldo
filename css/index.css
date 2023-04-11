@@ -1,7 +1,8 @@
+
 body {
-    background-color: #FFCC66;
-    background-image: ("img/fundo.jpg");
-    }  
+        background-image:("../img/fundo.jpg");
+        color: white;
+} 
 .título-pagina {
     font: size 10pt;
     color: silver
