@@ -3,16 +3,14 @@ header {
 }
 
 body {
-    background-color: #FFCC66;
-    background-image: image(".../img/fundo.jpg");
-    }  
+    background-color:yellow;
+}
+
 .título-pagina {
     font: size 10pt;
     color: silver
 }
-background {
-    color: rgb(12, 11, 5);
-}
+
 .barradenavegacao {
     display: flex;
     align-items: center;

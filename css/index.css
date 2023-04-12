@@ -1,7 +1,7 @@
 
 body {
-    background-image: url
-} 
+    background-image: url("../img/fundo.jpg");
+}
 
 .título-pagina {
     font: size 10pt;
