@@ -1,13 +1,11 @@
 body {
-    background-image: url("../img/fundo.jpg")
+    background-color:(#8D7B68);
 }
 .título-pagina {
     font: size 10pt;
     color: silver
 }
-background {
-    color: rgb(12, 11, 5);
-}
+
 .sobre-nos {
     display: left;
     align-items: center;
