@@ -3,7 +3,7 @@ header {
 }
 
 body {
-    background-color:yellow;
+   background-image: url("../img/fundo.jpg");
 }
 
 .título-pagina {
@@ -15,15 +15,14 @@ body {
     display: flex;
     align-items: center;
 }
-.barradenavegacao ul {
-    display: flex;
-}
-.barradenavegacao ul a {
+
+.navbar {
     padding-left: 50px;
-    text-decoration: none;
-    color: rgba(104, 22, 22, 0.445);
+    text-decoration:none;
+    color:brown;
     text-transform: uppercase;
     font-weight: 700;
+    
 }
 
 .banner {
