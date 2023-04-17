@@ -3,7 +3,8 @@ header {
 }
 
 body {
-    background-color:yellow;
+    background-image: url("../img/fundo.jpg");
+    /* serve para dar cor no fundo/body */
 }
 
 .título-pagina {
@@ -11,24 +12,83 @@ body {
     color: silver
 }
 
-.barradenavegacao {
+/* barra de navegação*/
+.navbar {
+    width: 100%;
+    height: 150px;
+    /* altura*/
     display: flex;
+    justify-content: space-around;
+    /* faz o alinhamento na horizontal */
+}
+
+/*itens dentro da barra de navegação*/
+.navbar ul {
+    display: flex;
+    width: 40%;
+    /*largura*/
+    justify-content: space-between;
+    /* serve para jogar o texto para o final */
     align-items: center;
+    /*define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis)*/
 }
-.barradenavegacao ul {
-    display: flex;
-}
-.barradenavegacao ul a {
-    padding-left: 50px;
+
+.navbar ul li a {
     text-decoration: none;
-    color: rgba(104, 22, 22, 0.445);
+    /*para tirar, por exemplo, o sublinhado quem vem, automaticamente nos links.*/
+    color: brown;
+    /*cor*/
+    text-transform: uppercase;
+    /*deixar letra maiscula*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+
+}
+
+/* .navbar a li {
+    padding-left: 50px;
+    text-decoration:none;
+    color:brown;
     text-transform: uppercase;
     font-weight: 700;
-}
+    
+} */
 
 .banner {
     width: 100px;
+    /*determina a largura da área de conteúdo de um elemento*/
     height: 250px;
+    /*determina a altura da área do conteúdo de um elemento*/
     object-fit: cover;
+    /*é utilizada para especificar como um objeto (imagem, vídeo, iframe ou embed) deve ser redimensionado para se ajustar ao seu contêine*/
     object-position: 0 0;
+}
+
+.subtitle-page {
+    display: flex;
+    width: 40%;
+    /*largura*/
+    justify-content: space-between;
+    /* serve para jogar o texto para o final */
+    align-items: center;
+    /*define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis)*/
+    /*determina a altura da área do conteúdo de um elemento*/
+}
+
+.container {
+    display: flex;
+    /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
+    size: 800%;
+    /* tamanho*/
+    padding-right: 10px;
+    /*indica a distância aplicada no lado direito do elemento*/
+    width: 10px;
+    /*determina a largura da área de conteúdo de um elemento*/
+    height: 200px;
+    /*determina a altura da área do conteúdo de um elemento*/
+}
+.page-title {
+
+    
+
 }
