@@ -87,8 +87,20 @@ body {
     height: 200px;
     /*determina a altura da área do conteúdo de um elemento*/
 }
-.page-title {
 
-    
 
+/*Catalogo*/
+.enviar {
+
+}
+/*menu priunciapal*/
+.navbar a {
+    text-decoration: none;
+    /*para tirar, por exemplo, o sublinhado quem vem, automaticamente nos links.*/
+    color: brown;
+    /*cor*/
+    text-transform: uppercase;
+    /*deixar letra maiscula*/
+    font-size: 20px;
+    /*tamanho da fonte*/
 }
