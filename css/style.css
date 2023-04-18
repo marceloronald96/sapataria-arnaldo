@@ -111,8 +111,6 @@ body {
 }
 
 
-
-
 .container1 {
     display: flex;
     justify-content: space-between;
@@ -125,4 +123,8 @@ body {
 .container1 h3 {
     font-size: 14px;
     font-weight: 200;
+}
+
+.social-icons {
+    width: 20px;
 }
