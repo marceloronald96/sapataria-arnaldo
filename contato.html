@@ -33,26 +33,36 @@
             <li><a href="catalogo.html">Catalogo</a></li>
         </ul>
 
-        <header>
-            <h1>Fale conosco</h1>
-            <h2>Para solicitar mais informações, por favor, preencha o formulário abaixo que entraremos em contato rapidamente.</h2>
+    </header>
+   
+    <h1 class="page-title">Contato</h1>
+            <h2 class= "sub-title"></h2>Para solicitar mais informações, por favor, preencha o formulário abaixo que entraremos em contato rapidamente.</h2>
 
         </header>
-
-   
+        <main>
                 <form action="/pagina-processa-dados-do-form" method="get">
-                    <label for="msg">Solicite seu orçamento: </label>
-                    <textarea id="msg"></textarea>
-                    <p>Descreva com detalhes qual seria o serviço a ser solicitado, com prazo de 2 dias úteis
-                        responderemos com
-                        orçamento.</p>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" autofocus required>
+
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" required>
+
+                    <label for="subject">Assunto:</label>
+                    <input type="text" id="subject" required>
+
+                    <label for="msg">Mensagem</label>
+                    <input type="text" id="msg">
+
+                    <label for="Phone">Telefone:</label>
+                    <input type="tel" id="Phone" required placeholder="(XX)XXXXX-XXXX">
+
 
                     <form class="enviar">
-                    <button type="mail">Enviar sua mensagem</button>
+                    <input type="submit">
 
                 </form>
 
-                <footer>      
+                <footer class="rodape">      
                     <address>
                         <p>Rua Forte do Leme, 52</p>
                         <p>Jardim Santa Adélia</p>
