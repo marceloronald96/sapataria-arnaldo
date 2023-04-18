@@ -1,3 +1,8 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
+
+
+
 header {
     height: 500px;
 }
@@ -5,6 +10,8 @@ header {
 body {
     background-image: url("../img/fundo.jpg");
     /* serve para dar cor no fundo/body */
+    font-family: raleway, sans-serif;
+    
 }
 
 .título-pagina {
@@ -90,9 +97,7 @@ body {
 
 
 /*Catalogo*/
-.enviar {
-    t
-}
+
 /*menu priunciapal*/
 .navbar a {
     text-decoration: none;
@@ -103,4 +108,21 @@ body {
     /*deixar letra maiscula*/
     font-size: 20px;
     /*tamanho da fonte*/
+}
+
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 img {
+    width: 500px;
+
+}
+.container1 h3 {
+    font-size: 14px;
+    font-weight: 200;
 }
