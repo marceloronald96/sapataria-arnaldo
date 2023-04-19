@@ -113,6 +113,10 @@ body {
     /*tamanho da fonte*/
 }
 
+.navbar ul {
+    position: fixed;
+}
+
 
 .container1 {
     display: flex;
@@ -147,15 +151,17 @@ body {
 
 label, button {
     display: block;
-    align-self: center;
+
 }
 
 .contact-form {
     width: 40rem;
-    height: 20rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 1rem;
+
 }
 
 .contact-form input,
@@ -170,6 +176,8 @@ button {
 }
 
 .social-icons {
-
+    height: 10rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
 }
 
