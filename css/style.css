@@ -12,7 +12,7 @@ body {
     
 }
 
-.page-title h1 {
+.page-title {
     margin-top: 10;
 }
     
@@ -129,9 +129,7 @@ body {
 }
 
 .social-icons {
-    height: 2rem;
-    padding-top: 1rem;
-    padding-left: 3rem;
+    
     
 }
 
@@ -153,8 +151,11 @@ label, button {
 }
 
 .contact-form {
-    width: 30rem;
-    margin: auto;
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contact-form input,
@@ -162,5 +163,13 @@ label, button {
 .contact-form select,
 .contact-form button {
     width: 100%;
-}    
+} 
+
+button {
+    cursor:pointer;
+}
+
+.social-icons {
+
+}
 
