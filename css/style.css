@@ -2,6 +2,7 @@
 
 header {
     height: 500px;
+    margin-top: auto;
 }
 
 body {
@@ -10,6 +11,11 @@ body {
     font-family: raleway, sans-serif;
     
 }
+
+.page-title h1 {
+    margin-top: 10;
+}
+    
 
 .título-pagina {
     font: size 10pt;
@@ -118,8 +124,8 @@ body {
 
 }
 .container1 h3 {
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 14pt;
+    font-weight: 600;
 }
 
 .social-icons {
@@ -143,6 +149,18 @@ body {
 
 label, button {
     display: block;
-
+    align-self: center;
 }
+
+.contact-form {
+    width: 30rem;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+    width: 100%;
+}    
 
