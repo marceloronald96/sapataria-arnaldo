@@ -8,6 +8,7 @@ header {
 body {
     background-image: url("../img/fundo.jpg");
     /* serve para dar cor no fundo/body */
+    background-blend-mode: color-dodge;
     font-family: raleway, sans-serif;
     
 }
@@ -118,23 +119,28 @@ body {
 }
 
 
-.container1 {
+.container-contact {
     display: flex;
     justify-content: space-between;
 }
 
-.container1 > aside > img {
+.container-contact > aside > img {
     width: 400px;
 
 }
-.container1 h3 {
+.container-contact h3 {
     font-size: 14pt;
     font-weight: 600;
 }
-
-.social-icons {
-    
-    
+.subtitle-page {
+    font-size: 20pt;
+    padding-top: 1rem;
+    width: 40px; 
+}
+.page-title {
+    font-size: 25pt;
+    padding-top: 3rem;
+    width: 40px; 
 }
 
 .adress-page {
@@ -181,3 +187,7 @@ button {
     padding-left: 3rem;
 }
 
+
+.sapatos {
+    mix-blend-mode: multiply;
+}

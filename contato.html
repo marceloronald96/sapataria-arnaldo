@@ -13,91 +13,84 @@
     <!-- A primeira e melhor formar de inclusão de CSS LINHA 10 -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <meta name="description" content="Conheça nossa história">
     <!--resumo do site para apresentação-->
-    <meta name="author" content="Marcelo Ronald">
     <title>Sapataria Seu Arnaldo - contato</title>
 </head>
 
 <body>
-
-   <header>
-    <!--menu de navegação-->
         <nav>
-        <ul class="navbar">
-            <img src="img/LOGO OF.png" alt="LOGO SEU ARNALDO">
+            <ul class="navbar">
+                <img src="img/LOGO OF.png" alt="LOGO SEU ARNALDO">
 
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="sobre-nos.html">Sobre nós</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="catalogo.html">Catalogo</a></li>
-        </ul>
-
-    </header>
-   
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre-nos.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+            </ul>
+        </nav>
+        
     <h1 class="page-title">Contato</h1>
-            <h2 class= "sub-title"></h2>Para solicitar mais informações, por favor, preencha o formulário abaixo que entraremos em contato rapidamente.</h2>
+    <h2 class="sub-title">Para solicitar mais informações, por favor, preencha o formulário abaixo que entraremos
+    em contato rapidamente.</h2>
 
-        </header>
-        <div class="container1">
+    <div class="container-contact">
         <main class="main">
-                <form class="contact-form" action="">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" autofocus required>
+            <form class="contact-form" action="" method="" onsubmit="alert ('Formulário enviado')">
 
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" required>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" autofocus required>
 
-                    <label for="subject">Assunto:</label>
-                    <!--<input type="text" id="subject" required>-->
-                    
-                    <select  id="subject" required>
-                        <option value="prazo"> Prazo de entrega</option>
-                        <option value="Orçamento"> Orçamento</option>
-                        <option value="Contato"> Contato</option>
-                        <option value="Outros"> Outros</option>
-                    </select>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" required>
 
+                <label for="subject">Assunto:</label>
+                <!--<input type="text" id="subject" required>-->
 
-                    <label for="message">Mensagem</label>
-                    <textarea id="message" cols="30" rows="5" placeholder="Digite aqui seu problema.."></textarea>
-                
-                    <label for="Phone">Telefone:</label>
-                    <input type="tel" id="Phone" required placeholder="(XX)XXXXX-XXXX">
+                <select id="subject" required>
+                    <option value="prazo"> Prazo de entrega</option>
+                    <option value="Orçamento"> Orçamento</option>
+                    <option value="Contato"> Contato</option>
+                    <option value="Outros"> Outros</option>
+                </select>
 
 
-                    
-                    <button>Enviar</button>
+                <label for="message">Mensagem</label>
+                <textarea id="message" cols="30" rows="5" placeholder="Digite aqui seu problema..."></textarea>
 
-                </form>
-            </main>
+                <label for="Phone">Telefone:</label>
+                <input type="tel" id="Phone" required placeholder="(XX)XXXXX-XXXX">
 
-            <aside>
-                <img src="./img/loja2.JPG" alt="espaço da loja">
 
-                <h3>Horário de funcionamento</h3>
-                    <p>Seg. a sex.</p>
-                    <p>das 08h às 17h</p>
-                    <p>Sábados</p>
-                    <p>das 09hrs as 12h</p> 
-                
-                <div>
-                    <a href="#"><img class="social-icons" src="./icons/Instagram.svg" alt="Instagram"></a>
-                    <a href="#"><img class="social-icons" src="./icons/Whatsapp.svg" alt="zap"></a>
-                    <a href="#"><img class="social-icons" src="./icons/Gmail.svg" alt="gmail"></a> 
-                </div>
-            </aside>
-        </div>
 
-                <footer class="adress-page">      
-                    <address>
-                        <p>Rua Forte do Leme, 52</p>
-                        <p>Jardim Santa Adélia</p>
-                        <p>São Paulo-SP</p>
-                        <p>Telefone: (11) 3371-1279</p>
-            </footer>            
+                <button>Enviar</button>
 
-    </body>
+            </form>
+        </main>
+
+        <aside>
+            <img src="./img/loja2.JPG" alt="espaço da loja">
+
+            <h3>Horário de funcionamento</h3>
+            <p>Seg. a sex.</p>
+            <p>das 08h às 17h</p>
+            <p>Sábados</p>
+            <p>das 09hrs as 12h</p>
+
+            <div>
+                <a href="#"><img class="social-icons" src="./icons/Instagram.svg" alt="Instagram"></a>
+                <a href="#"><img class="social-icons" src="./icons/Whatsapp.svg" alt="zap"></a>
+                <a href="#"><img class="social-icons" src="./icons/Gmail.svg" alt="gmail"></a>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="adress-page">
+        <address>
+            <p>Rua Forte do Leme, 52</p>
+            <p>Jardim Santa Adélia</p>
+            <p>São Paulo-SP</p>
+            <p>Telefone: (11) 3371-1279</p>
+    </footer>
 
 </body>
 
