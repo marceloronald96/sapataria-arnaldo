@@ -1,62 +1,78 @@
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
 
-header {
-    height: 500px;
-    margin-top: auto;
-}
+  header {
+      height: 500px;
+      margin-top: auto;
+  }
 
-body {
-    background-image: url("../img/fundo.jpg");
-    /* serve para dar cor no fundo/body */
-    background-blend-mode: color-dodge;
-    font-family: raleway, sans-serif;
-    
-}
+  body {
+      background-image: url("../img/fundo.jpg");
+      /* serve para dar cor no fundo/body */
+      background-blend-mode: color-dodge;
+      font-family: raleway, sans-serif;
 
-.page-title {
+  }
+
+  .image-home {
     margin-top: 10;
-}
-    
-
-.título-pagina {
-    font: size 10pt;
-    color: silver
-}
-
-/* barra de navegação*/
-.navbar {
-    width: 100%;
-    height: 150px;
-    /* altura*/
+    font-weight: bold;
     display: flex;
-    justify-content: space-around;
-    /* faz o alinhamento na horizontal */
-}
+    justify-content: center;
+    font-size: 40px;
+  }
 
-/*itens dentro da barra de navegação*/
-.navbar ul {
+  .page-title-home {
+    margin-top: 10;
+    font-weight: bold;
     display: flex;
-    width: 40%;
-    /*largura*/
-    justify-content: space-between;
-    /* serve para jogar o texto para o final */
-    align-items: center;
-    /*define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis)*/
-}
+    justify-content: center;
+    font-size: 40px;
+  }
 
-.navbar ul li a {
-    text-decoration: none;
-    /*para tirar, por exemplo, o sublinhado quem vem, automaticamente nos links.*/
-    color: brown;
-    /*cor*/
-    text-transform: uppercase;
-    /*deixar letra maiscula*/
-    font-size: 20px;
-    /*tamanho da fonte*/
+  .page-title {
+      margin-top: 10;
+  }
 
-}
 
-/* .navbar a li {
+  .título-pagina {
+      font: size 10pt;
+      color: silver
+  }
+
+  /* barra de navegação*/
+  .navbar {
+      width: 100%;
+      height: 150px;
+      /* altura*/
+      display: flex;
+      justify-content: space-around;
+      /* faz o alinhamento na horizontal */
+  }
+
+  /*itens dentro da barra de navegação*/
+  .navbar ul {
+      display: flex;
+      width: 40%;
+      /*largura*/
+      justify-content: space-between;
+      /* serve para jogar o texto para o final */
+      align-items: center;
+      /*define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis)*/
+  }
+
+  .navbar ul li a {
+      text-decoration: none;
+      /*para tirar, por exemplo, o sublinhado quem vem, automaticamente nos links.*/
+      color: brown;
+      /*cor*/
+      text-transform: uppercase;
+      /*deixar letra maiscula*/
+      font-size: 20px;
+      /*tamanho da fonte*/
+
+  }
+
+  /* .navbar a li {
     padding-left: 50px;
     text-decoration:none;
     color:brown;
@@ -65,129 +81,135 @@ body {
     
 } */
 
-.banner {
-    width: 100px;
-    /*determina a largura da área de conteúdo de um elemento*/
-    height: 250px;
-    /*determina a altura da área do conteúdo de um elemento*/
-    object-fit: cover;
-    /*é utilizada para especificar como um objeto (imagem, vídeo, iframe ou embed) deve ser redimensionado para se ajustar ao seu contêine*/
-    object-position: 0 0;
-}
+  .banner {
+      width: 100px;
+      /*determina a largura da área de conteúdo de um elemento*/
+      height: 250px;
+      /*determina a altura da área do conteúdo de um elemento*/
+      object-fit: cover;
+      /*é utilizada para especificar como um objeto (imagem, vídeo, iframe ou embed) deve ser redimensionado para se ajustar ao seu contêine*/
+      object-position: 0 0;
+  }
 
-.subtitle-page {
-    display: flex;
-    width: 40%;
-    /*largura*/
-    justify-content: space-between;
-    /* serve para jogar o texto para o final */
-    align-items: center;
-    /*define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis)*/
-    /*determina a altura da área do conteúdo de um elemento*/
-}
+  .subtitle-page {
+      display: flex;
+      width: 40%;
+      /*largura*/
+      justify-content: space-between;
+      /* serve para jogar o texto para o final */
+      align-items: center;
+      /*define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis)*/
+      /*determina a altura da área do conteúdo de um elemento*/
+  }
 
-.container {
-    display: flex;
-    /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
-    size: 800%;
-    /* tamanho*/
-    padding-right: 10px;
-    /*indica a distância aplicada no lado direito do elemento*/
-    width: 10px;
-    /*determina a largura da área de conteúdo de um elemento*/
-    height: 200px;
-    /*determina a altura da área do conteúdo de um elemento*/
-}
-
-
-/*Catalogo*/
-
-/*menu priunciapal*/
-.navbar a {
-    text-decoration: none;
-    /*para tirar, por exemplo, o sublinhado quem vem, automaticamente nos links.*/
-    color: brown;
-    /*cor*/
-    text-transform: uppercase;
-    /*deixar letra maiscula*/
-    font-size: 20px;
-    /*tamanho da fonte*/
-}
-
-.navbar ul {
-    position: fixed;
-}
+  .container {
+      display: flex;
+      /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
+      size: 800%;
+      /* tamanho*/
+      padding-right: 10px;
+      /*indica a distância aplicada no lado direito do elemento*/
+      width: 10px;
+      /*determina a largura da área de conteúdo de um elemento*/
+      height: 200px;
+      /*determina a altura da área do conteúdo de um elemento*/
+  }
 
 
-.container-contact {
-    display: flex;
-    justify-content: space-between;
-}
+  /*Catalogo*/
 
-.container-contact > aside > img {
-    width: 400px;
+  /*menu priunciapal*/
+  .navbar a {
+      text-decoration: none;
+      /*para tirar, por exemplo, o sublinhado quem vem, automaticamente nos links.*/
+      color: brown;
+      /*cor*/
+      text-transform: uppercase;
+      /*deixar letra maiscula*/
+      font-size: 20px;
+      /*tamanho da fonte*/
+  }
 
-}
-.container-contact h3 {
-    font-size: 14pt;
-    font-weight: 600;
-}
-.subtitle-page {
-    font-size: 20pt;
-    padding-top: 1rem;
-    width: 40px; 
-}
-.page-title {
-    font-size: 25pt;
-    padding-top: 3rem;
-    width: 40px; 
-}
-
-.adress-page {
-    display: flex;
-    flex-direction: column; /* deixar display em coluna*/
-    padding-left: 3rem;
-    padding-top: 3rem;
-    height: 100px;
-    justify-content: space-between;
-
-}
-
-/*Formulário*/
-
-label, button {
-    display: block;
-
-}
-
-.contact-form {
-    width: 40rem;
-    height: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 1rem;
-
-}
-
-.contact-form input,
-.contact-form textarea,
-.contact-form select,
-.contact-form button {
-    width: 100%;
-} 
-
-button {
-    cursor:pointer;
-}
-
-.social-icons {
-    height: 10rem;
-    padding-top: 3rem;
-    padding-left: 3rem;
-}
+  .navbar ul {
+      position: fixed;
+  }
 
 
-.sapatos {
-    mix-blend-mode: multiply;
-}
+  .container-contact {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .container-contact>aside>img {
+      width: 400px;
+
+  }
+
+  .container-contact h3 {
+      font-size: 14pt;
+      font-weight: 600;
+  }
+
+  .subtitle-page {
+      font-size: 20pt;
+      padding-top: 1rem;
+      width: 40px;
+  }
+
+  .page-title {
+      font-size: 25pt;
+      padding-top: 3rem;
+      width: 40px;
+  }
+
+  .adress-page {
+      display: flex;
+      flex-direction: column;
+      /* deixar display em coluna*/
+      padding-left: 3rem;
+      padding-top: 3rem;
+      height: 100px;
+      justify-content: space-between;
+
+  }
+
+  /*Formulário*/
+
+  label,
+  button {
+      display: block;
+
+  }
+
+  .contact-form {
+      width: 40rem;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-left: 1rem;
+
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select,
+  .contact-form button {
+      width: 100%;
+  }
+
+  button {
+      cursor: pointer;
+  }
+
+  .social-icons {
+      height: 10rem;
+      padding-top: 3rem;
+      padding-left: 3rem;
+  }
+
+
+  .sapatos {
+      mix-blend-mode: multiply;
+  }
+
