@@ -14,15 +14,16 @@
   }
 
   .image-home {
-    margin-top: 10;
+    margin: auto;
     font-weight: bold;
     display: flex;
     justify-content: center;
     font-size: 40px;
+
   }
 
   .page-title-home {
-    margin-top: 10;
+    margin: auto;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -212,4 +213,18 @@
   .sapatos {
       mix-blend-mode: multiply;
   }
+
+  .navbar ul {
+    text-decoration: none;
+    /*para tirar, por exemplo, o sublinhado quem vem, automaticamente nos links.*/
+    color: brown;
+    /*cor*/
+    text-transform: uppercase;
+    /*deixar letra maiscula*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+}
+
+
+
 
