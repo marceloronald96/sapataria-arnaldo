@@ -14,20 +14,28 @@
   }
 
   .image-home {
-    margin: auto;
-    font-weight: bold;
-    display: flex;
     justify-content: center;
-    font-size: 40px;
+    display: flex;
+    background-color: burlywood;
+    width: 100%;
+    object-fit: cover;
+
 
   }
 
+  div .image-home {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 50;
+
+  }
   .page-title-home {
     margin: auto;
     font-weight: bold;
     display: flex;
     justify-content: center;
     font-size: 40px;
+    line-height: 200%;
   }
 
   .page-title {
@@ -171,6 +179,7 @@
       padding-top: 3rem;
       height: 100px;
       justify-content: space-between;
+      
 
   }
 
@@ -225,6 +234,16 @@
     /*tamanho da fonte*/
 }
 
+a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
+.text-apresentation p {
+    margin:1rem;
+    line-height: 200%;
+    text-align: center;
+}
 
 
 
