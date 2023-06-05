@@ -1,5 +1,17 @@
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
+@media  screen and (max-width: 400px) {
 
+    .page-title-home , .page-title, .image-home{
+
+        width: 100%;
+        margin-top: auto;
+    }
+
+    .navbar img ul li a {
+        justify-content: flex-end;
+    }
+}
+  
+  
   header {
       height: 500px;
       margin-top: auto;
@@ -244,6 +256,5 @@ a:hover{
     line-height: 200%;
     text-align: center;
 }
-
 
 
